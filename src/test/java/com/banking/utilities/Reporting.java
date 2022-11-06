@@ -23,8 +23,8 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 public class Reporting extends TestListenerAdapter
 {
 	public ExtentHtmlReporter htmlReporter;
-	public ExtentReports extent;
-	public ExtentTest logger;
+	public ExtentReports extent; //specify the location of the report
+	public ExtentTest logger; // what details should be populated in the report
 		
 	public void onStart(ITestContext testContext)
 	{
